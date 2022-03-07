@@ -1,2 +1,2 @@
-# radiomics_workflows
+# STRATS-forge Radiomics workflows
 Workflows for radiomics
