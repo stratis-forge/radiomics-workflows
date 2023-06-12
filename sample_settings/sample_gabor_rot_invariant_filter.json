@@ -1,0 +1,27 @@
+{
+
+"structures": ["GTV-1"],
+
+"imageType": {
+  		  "Gabor": {
+		    		  "Radius_mm": 5,
+		  		  "Sigma_mm": 4,
+		  		  "Wavlength_mm": 8,
+		                  "SpatialAspectRatio": 1.5,
+		                  "Orientation":[30,60,90,120,150,180,210,240,270,300,330,360],
+		                  "OrientationAggregation": "average",
+		                  "ImagePlane": ["Axial","Sagittal","Coronal"],
+		                  "PlaneAggregation": "average"
+			        }
+	    },
+
+"settings": {		   
+
+                   "padding": [{
+                                "method": "expand",  
+                                "size": [11,11,11]
+			       }
+                              ]
+	    }
+
+}
